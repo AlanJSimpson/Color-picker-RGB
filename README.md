@@ -1,2 +1,2 @@
 # Color-picker-RGB
-A simple color picker in RGB to practice of JS basic
+A simple color picker RGB for js basic practice
