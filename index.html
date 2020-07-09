@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>1° Trabalho IGTI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="titulo">
+      <h1>
+        R <span id="green-letter">G</span> <span id="blue-letter">B</span>
+      </h1>
+      <h2>Color picker!</h2>
+    </header>
+    <form class="colors-RGB">
+      <div class="flex-row">
+        <label for="r">(R) Red: </label>
+        <input type="range" min="0" max="255" id="r-vermelho" value="0" />
+        <input
+          type="text"
+          class="box-valueRGB"
+          id="box-valueR"
+          disabled="disabled"
+          value="0"
+        />
+      </div>
+
+      <div class="flex-row">
+        <label for="g">(G) Green: </label>
+        <input type="range" min="0" max="255" id="g-verde" value="0" />
+        <input
+          type="text"
+          class="box-valueRGB"
+          id="box-valueG"
+          disabled="disabled"
+          value="0"
+        />
+      </div>
+
+      <div class="flex-row">
+        <label for="b">(B) Blue: </label>
+        <input type="range" min="0" max="255" id="b-azul" value="0" />
+        <input
+          type="text"
+          class="box-valueRGB"
+          name="b"
+          id="box-valueB"
+          disabled="disabled"
+          value="0"
+        />
+      </div>
+    </form>
+    <div id="box-color"></div>
+
+    <script src="./code.js"></script>
+  </body>
+</html>

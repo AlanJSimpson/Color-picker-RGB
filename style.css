@@ -1,0 +1,51 @@
+body {
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: serif;
+}
+
+h1::first-letter {
+  color: red;
+}
+
+#green-letter {
+  color: green;
+}
+
+#blue-letter {
+  color: rgb(60, 105, 156);
+}
+
+.box-valueRGB {
+  width: 50px;
+}
+
+#g-verde {
+  margin-right: 15px;
+}
+
+#b-azul {
+  margin-right: 5px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#box-color {
+  background-color: black;
+  height: 70px;
+  width: 25%;
+  margin: 15px auto;
+}
