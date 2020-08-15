@@ -2,4 +2,4 @@
 
 A simple color picker RGB for js basic practice
 
-![image]('./../ilustracao.jpg')
+![image]('./ilustracao.jpg')
